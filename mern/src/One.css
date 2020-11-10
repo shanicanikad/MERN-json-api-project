@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    text-align: center; 
+  }
+  
+.tab1 {
+    background-color: inherit;
+    float: center;
+    border: 5px solid yellow;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+.tab1:hover {
+    background-color: #ddd;
+  }
+  
+.tab1.active {
+    background-color: #ccc;
+  }

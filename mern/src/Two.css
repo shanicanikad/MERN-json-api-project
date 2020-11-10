@@ -1,0 +1,22 @@
+h1 {
+    color: green;
+    text-align: center; 
+  }
+.tab2 {
+    background-color: inherit;
+    float: center;
+    border: 5px solid yellow;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+.tab2:hover {
+    background-color: #ddd;
+  }
+  
+.tab2.active {
+    background-color: #ccc;
+  }
