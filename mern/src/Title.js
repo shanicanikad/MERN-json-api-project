@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Route, Switch, Redirect } from "react-router-dom";
 import "./Title.css";
 
 function Title () {
